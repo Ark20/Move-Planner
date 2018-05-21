@@ -44,7 +44,7 @@ for (var i=0; i < articles.length; i++){
 $nytHeaderElem.text('NYT articles could not be loaded');
 });
 // YOUR CODE GOES HERE!
-var wikiUrl = "http://en.wikipedhahahahahafjfjfjfhia.org/w/api.php?action=opensearch&search=" + cityStr + "&format=json&callback=wikiCallback";
+var wikiUrl = "http://en.wikipedia.org/w/api.php?action=opensearch&search=" + cityStr + "&format=json&callback=wikiCallback";
 
 var wikiRequestTimeout = setTimeout(function(){$wikiElem.text("failed to get wikipedia resources");},8000);
 
